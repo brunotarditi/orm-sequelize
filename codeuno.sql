@@ -43,7 +43,7 @@ CREATE TABLE `comments` (
 
 LOCK TABLES `comments` WRITE;
 /*!40000 ALTER TABLE `comments` DISABLE KEYS */;
-INSERT INTO `comments` VALUES (1,'alumno1','buen trabajo1',1,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(2,'alumno2','buen trabajo2',1,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(3,'alumno3','buen trabajo3',2,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(4,'alumno4','buen trabajo4',2,'2021-06-24 19:21:01','2021-06-24 19:21:01');
+INSERT INTO `comments` VALUES (1,'alumno1','buen trabajo1',1,'2021-06-19 03:04:20','2021-06-19 03:04:20'),(2,'alumno2','buen trabajo2',1,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(3,'alumno3','buen trabajo3',2,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(4,'alumno4','buen trabajo4',2,'2021-06-19 03:04:21','2021-06-19 03:04:21');
 /*!40000 ALTER TABLE `comments` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -70,7 +70,7 @@ CREATE TABLE `domicilios` (
 
 LOCK TABLES `domicilios` WRITE;
 /*!40000 ALTER TABLE `domicilios` DISABLE KEYS */;
-INSERT INTO `domicilios` VALUES (1,'Dom#1 Calle',1234,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(2,'Dom#2 Calle',4567,'2021-06-24 19:21:01','2021-06-24 19:21:01');
+INSERT INTO `domicilios` VALUES (1,'Dom#1 Calle',1234,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(2,'Dom#2 Calle',4567,'2021-06-19 03:04:21','2021-06-19 03:04:21');
 /*!40000 ALTER TABLE `domicilios` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -125,7 +125,7 @@ CREATE TABLE `personas` (
 
 LOCK TABLES `personas` WRITE;
 /*!40000 ALTER TABLE `personas` DISABLE KEYS */;
-INSERT INTO `personas` VALUES (1,'persona1','apellidoPersona1',12345678,1,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(2,'persona2','apellidoPersona2',87654321,1,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(3,'persona3','apellidoPersona1',78945612,2,'2021-06-24 19:21:01','2021-06-24 19:21:01'),(4,'persona4','apellidoPersona4',45678912,2,'2021-06-24 19:21:01','2021-06-24 19:21:01');
+INSERT INTO `personas` VALUES (1,'persona1','apellidoPersona1',12345678,1,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(2,'persona2','apellidoPersona2',87654321,1,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(3,'persona3','apellidoPersona1',78945612,2,'2021-06-19 03:04:21','2021-06-19 03:04:21'),(4,'persona4','apellidoPersona4',45678912,2,'2021-06-19 03:04:21','2021-06-19 03:04:21');
 /*!40000 ALTER TABLE `personas` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -152,7 +152,7 @@ CREATE TABLE `tutorials` (
 
 LOCK TABLES `tutorials` WRITE;
 /*!40000 ALTER TABLE `tutorials` DISABLE KEYS */;
-INSERT INTO `tutorials` VALUES (1,'Tut#1','Tut#1 Description','2021-06-24 19:21:01','2021-06-24 19:21:01'),(2,'Tut#2','Tut#2 Description','2021-06-24 19:21:01','2021-06-24 19:21:01');
+INSERT INTO `tutorials` VALUES (1,'Tut#1','Tut#1 Description','2021-06-19 03:04:20','2021-06-19 03:04:20'),(2,'Tut#2','Tut#2 Description','2021-06-19 03:04:20','2021-06-19 03:04:20');
 /*!40000 ALTER TABLE `tutorials` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -173,4 +173,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-06-24 16:22:35
+-- Dump completed on 2021-06-24  1:16:08

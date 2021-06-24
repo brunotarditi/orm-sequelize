@@ -1,2 +1,2 @@
 # orm-sequelize
-Trabajo Metodología en Sistemas
+Trabajo Metodología de Sistemas
